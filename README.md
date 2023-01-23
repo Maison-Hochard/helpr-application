@@ -22,6 +22,12 @@ On MacOS
 ```bash
 npx cap run ios
 ```
+
+```bash
+npx cap add ios
+```
+you need to do this command for every changes
+
 On Android
 ```bash
 npx cap run android
