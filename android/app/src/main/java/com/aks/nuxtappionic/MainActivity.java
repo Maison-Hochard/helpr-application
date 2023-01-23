@@ -1,4 +1,4 @@
-package com.example.app;
+package com.aks.nuxtappionic;
 
 import com.getcapacitor.BridgeActivity;
 
