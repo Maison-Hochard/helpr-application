@@ -1,7 +1,8 @@
 {
-  "name": "nuxtappionic",
+  "name": "Helpr",
   "integrations": {
     "capacitor": {}
   },
-  "type": "custom"
+  "type": "vue",
+  "id": "f69f546f"
 }

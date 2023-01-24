@@ -1,6 +1,6 @@
 {
-  "appId": "com.aks.nuxtappionic",
-  "appName": "nuxtappionic",
-  "webDir": ".output/public",
-  "bundledWebRuntime": false
+	"appId": "io.ionic.starter",
+	"appName": "Helpr",
+	"webDir": "dist",
+	"bundledWebRuntime": false
 }
