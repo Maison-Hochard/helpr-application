@@ -1,18 +1,12 @@
 <template>
   <ion-page>
-    <ion-header>
-      <ion-toolbar>
-        <ion-title>Tab 1</ion-title>
-      </ion-toolbar>
+    <ion-header class="login-page">
+      <img class="logo-login" src="../../resources/icons/helpr-logo-icon-md-blanc.svg"/>
+      <ion-title class="login-text">Sign in</ion-title>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large" class="font-bold bg-red-600">Home</ion-title>
-        </ion-toolbar>
       </ion-header>
-
-      <ExploreContainer name="Home" class="font-bold bg-red-600" />
     </ion-content>
   </ion-page>
 </template>

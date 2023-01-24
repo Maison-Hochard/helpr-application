@@ -1,6 +1,10 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+ion-page {
+  background-color: 1E1E1E;
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
