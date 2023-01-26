@@ -1,8 +1,8 @@
 <template>
   <ion-page>
-    <ion-header class="login-page">
-      <img class="logo-login" src="../../resources/icons/helpr-logo-icon-md-blanc.svg"/>
-      <ion-title class="login-text">Sign in</ion-title>
+    <ion-header class="flex flex-col items-center justify-center gap-3 p-10">
+      <img class="w-1/6" src="../../resources/icons/helpr-logo-icon-md-blanc.svg" alt=""/>
+      <ion-title class="font-bold text-4xl">Sign in</ion-title>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">

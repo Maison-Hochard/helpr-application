@@ -2,18 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-.login-page {
-    background-color: #000211;
+@import "themes";
+
+html,body, #__nuxt, #__layout{
+    @apply bg-primary;
+    height:100%!important;
+    width: 100%!important;
 }
 
-.logo-login {
-    width: 100%;
-    height: 15%;
-    color: #5A069B;
-    margin-top: 30%;
-}
+@layer components {
+    .input {
+        @apply bg-secondary;
+        @apply text-primary placeholder:text-placeholder;
+        @apply border-sm rounded-md border-primary hover:border-primary-hover;
+        @apply focus:outline-none focus:ring-2 focus:ring-accent;
+        @apply w-full px-4 py-2;
+    }
 
-.login-text {
-    font-size: 2rem;
-    color: #D9D9D9;
+    .btn-primary {
+        @apply bg-accent hover:bg-accent-hover;
+        @apply text-inverted;
+        @apply rounded-md;
+        @apply px-4 py-2 flex w-full justify-center;
+        @apply cursor-pointer;
+
+        &:disabled {
+            @apply bg-accent;
+            @apply cursor-not-allowed;
+        }
+    }
+
+    .btn-secondary {
+        @apply bg-primary;
+        @apply text-muted;
+        @apply border-sm rounded-md border-primary hover:border-primary-hover;
+        @apply px-4 py-2 flex w-full justify-center;
+        @apply cursor-pointer;
+    }
 }
